@@ -1,0 +1,9 @@
+lui r1,100
+add r1,r2,r3
+sll r1,r2,10
+sllv r1,r2,r3
+jr r31
+loop:
+addi r1,r2,100
+lw r1,10(r2)
+bne r1,r2,loop
